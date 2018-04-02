@@ -12,13 +12,13 @@ public class TTT {
 		    byte[] buffer = serialPort.readBytes(10);
 		    if(buffer!=null) {
 		        for(byte b:buffer) {
-		            System.out.print(b);
+		            System.out.print("test");
+		            
+		            
 		        }
 		    } 
 		}
 		
-		
-		123123
 	}
 
 }
