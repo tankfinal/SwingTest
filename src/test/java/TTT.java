@@ -12,7 +12,7 @@ public class TTT {
 		    byte[] buffer = serialPort.readBytes(10);
 		    if(buffer!=null) {
 		        for(byte b:buffer) {
-		            System.out.print("test");
+		            System.out.print("test2");
 		            
 		            
 		        }
